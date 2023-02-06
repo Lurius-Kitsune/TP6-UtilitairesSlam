@@ -66,7 +66,7 @@ namespace PileConsoleLibrairie
             Pile<int> pile = new Pile<int>();
             string result = "";
             int premierNombre = NbAConvertir;
-            while (!(NbAConvertir / pNewbase == 0))
+            while (NbAConvertir != 0)
             {
                 pile.Empiler(NbAConvertir % pNewbase);
                 NbAConvertir /= pNewbase;
