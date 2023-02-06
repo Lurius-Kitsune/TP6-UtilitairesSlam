@@ -24,6 +24,7 @@ namespace PileConsoleLibrairie
             {
                 Console.WriteLine("[Erreur] {0}", ex.Message);
             }
+            Console.ReadKey();
         }
 
         public static int SaisirNb()
