@@ -30,8 +30,8 @@ namespace PileWinformLibrary
             txtResultat.Clear();
             try
             {
-                NbAConvertir = Int32.Parse(txtResultat.Text);
-                NewBase = Int16.Parse(txtResultat.Text);
+                NbAConvertir = Int32.Parse(mskNbAConvertir.Text);
+                NewBase = Int16.Parse(nudNouvelleBase.Text);
                 Pile<int> Wonder = new Pile<int>();
                 Resultat = NbAConvertir;
                 while (Resultat != 0)
