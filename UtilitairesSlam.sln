@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitairesSlam", "(TP6)Uti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PileConsoleLibrairie", "PileConsoleLibrairie\PileConsoleLibrairie.csproj", "{759645B1-EAAA-43F3-842D-A1C472BA101D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PileWinformLibrary", "PileWinformLibrary\PileWinformLibrary.csproj", "{369A63D8-B283-49AA-940A-112ADE001262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369A63D8-B283-49AA-940A-112ADE001262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369A63D8-B283-49AA-940A-112ADE001262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369A63D8-B283-49AA-940A-112ADE001262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369A63D8-B283-49AA-940A-112ADE001262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
