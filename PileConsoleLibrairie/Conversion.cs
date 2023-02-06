@@ -85,3 +85,4 @@ namespace PileConsoleLibrairie
             return "La valeur de " + premierNombre + " (base 10) vaut " + result + " en base " + pNewbase; ;
         }
     }
+}
