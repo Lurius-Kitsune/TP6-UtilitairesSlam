@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(TP6)UtilitairesSlam-DLLMAKE", "(TP6)UtilitairesSlam\(TP6)UtilitairesSlam-DLLMAKE.csproj", "{B630D290-91BE-4A70-AFAA-7CCBC79376B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PileConsoleLibrairie", "PileConsoleLibrairie\PileConsoleLibrairie.csproj", "{759645B1-EAAA-43F3-842D-A1C472BA101D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B630D290-91BE-4A70-AFAA-7CCBC79376B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B630D290-91BE-4A70-AFAA-7CCBC79376B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B630D290-91BE-4A70-AFAA-7CCBC79376B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759645B1-EAAA-43F3-842D-A1C472BA101D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
