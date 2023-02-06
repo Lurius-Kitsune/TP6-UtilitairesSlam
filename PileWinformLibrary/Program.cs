@@ -16,7 +16,7 @@ namespace PileWinformLibrary
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmConversion());
+            Application.Run(new Form1());
         }
     }
 }

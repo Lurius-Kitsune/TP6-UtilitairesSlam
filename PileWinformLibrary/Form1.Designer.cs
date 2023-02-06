@@ -1,6 +1,6 @@
 ﻿namespace PileWinformLibrary
 {
-    partial class FrmConversion
+    partial class Form1
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FrmConversion
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 532);
-            this.Name = "FrmConversion";
-            this.Text = "FrmConversion";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion

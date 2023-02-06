@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PileWinformLibrary
 {
-    public partial class FrmConversion : Form
+    public partial class Form1 : Form
     {
-        public FrmConversion()
+        public Form1()
         {
             InitializeComponent();
         }
