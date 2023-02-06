@@ -1,6 +1,6 @@
 ﻿namespace PileWinformLibrary
 {
-    partial class Form1
+    partial class FrmConversion
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
