@@ -63,17 +63,17 @@ namespace PileConsoleLibrairie
         public static string Convertir(int NbAConvertir, int pNewbase)
         {
             if (NbAConvertir <= 0) { throw new Exception("Le nombre à convertir doit être strictement positif"); }
-            Pile<int> pile = new Pile<int>();
+            Stack<int> stack = new Stack<int>();
             string result = "";
             int premierNombre = NbAConvertir;
             while (NbAConvertir != 0)
             {
-                pile.Empiler(NbAConvertir % pNewbase);
+                stack.Push(NbAConvertir % pNewbase);
                 NbAConvertir /= pNewbase;
             }
-            while (!pile.PileVide())
+            while (stack.Count != 0)
             {
-                int i = (int)pile.Depiler();
+                int i = stack.Pop();
                 if (i <= 10)
                 {
                     result += i;
